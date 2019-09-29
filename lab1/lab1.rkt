@@ -1,0 +1,6 @@
+; Lab #1. Variant #5. Task: X=(A - |B/C|)/(2.75Sin^2D)
+(define a 1)
+(define b 2)
+(define c 3)
+(define d 4)
+(/ (- a (abs (/ b c))) (* 2.75 (expt (sin d) 2)))
